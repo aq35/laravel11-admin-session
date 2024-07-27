@@ -1,0 +1,24 @@
+{
+    "name": "your-vendor/admin-session",
+    "description": "Laravel package for managing admin sessions.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\AdminSession\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.0",
+        "illuminate/session": "^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\AdminSession\\Providers\\AdminSessionServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
